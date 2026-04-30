@@ -1,0 +1,26 @@
+# MATLAB / Octave
+*.asv
+*.mat
+*.slxc
+*.mex*
+*.log
+Desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# VS Code
+.vscode/
+
+# Project specific
+results/*.png
+!results/.gitkeep
+todo.md
+
+# Betriebssystem-Müll
+.DS_Store
+Thumbs.db
