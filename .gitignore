@@ -21,6 +21,12 @@ results/*.png
 !results/.gitkeep
 todo.md
 
-# Betriebssystem-Müll
+# Draw.io backups
+*drawio.bkp
+.*drawio.bkp
+
+
+# Operating system trashl
 .DS_Store
 Thumbs.db
+
