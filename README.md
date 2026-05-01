@@ -24,4 +24,4 @@ A stochastic 2D cellular automaton is implemented to simulate biological cell pr
 
 
 ## ⚖️ License
-Distributed under the MIT License. See `LICENSE` for more information
+Distributed under the MIT License. See `LICENSE` for more information.

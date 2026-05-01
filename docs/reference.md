@@ -26,16 +26,22 @@ The simulation configuration parameters are defined in the `src/simulateCellGrow
 ## 2. Python Gif Tool (`tools/generate_gif.py`)
 Technical details for the post-processing automation script.
 
-Requirements
+### 1.1. Requirements
 - Python: 3.10+
 - Libraries: imageio
 
 The automation tool supports GIF generation via imageio. For future high-resolution MP4 exports, the pipeline is prepared to integrate OpenCV.
 
-Arguments:
-- `--input`: Path to the image folder (default: results/).
-- `--output`: Name of the generated file (default: simulation.mp4).
-- `--fps`: Frames per second (default: 10).
+
+### 2.2. Configuration Parameters
+The GIF generation tool uses the following internal configurations defined in `tools/generate_gif.py`.
+
+| Parameter | Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| `source_folder` | String | `results/` | Path to the directory containing the simulation frames (*.png). |
+| `output_path` | String | `simulation_cell_growth.gif` | Filename and location for the generated animation. |
+| `duration_s` | Float | 0.1 | Duration in seconds (0.1s $\approx $ 10 FPS) .|
+
 
 
 ## 4. Bibliography & Research Sources
